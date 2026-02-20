@@ -97,13 +97,3 @@ CREATE TABLE transactions (
 - Duplicate detection
 - Exchange rate validation
 
----
-
-## 📊 Performance Benchmarks
-
-| Operation                | Target |
-|--------------------------|--------|
-| Balance lookup           | < 5 ms |
-| Transaction lookup       | < 100 ms |
-| 30-day aggregation       | < 300 ms |
-| Throughput               | ≥ 1000 tx/min |
